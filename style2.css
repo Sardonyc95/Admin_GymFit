@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.gym-lady{ 
+    display: flex;
+    justify-content: center;
+    background-image: url("image2/img1.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    flex-direction: column;
+    background-position: center;
+}
+
+
+.first-text{
+    text-decoration: solid;
+    color: #fff;
+    
+}
+.second-text{
+    text-decoration: solid;
+    color: #fff;
+}
+.about-us{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 100px;
+    
+}
+.about-img{
+    padding-right: 50px;
+    box-shadow: 60px;
+    margin: 0 10px 0 25px; 
+
+}
+.us{
+    color: #5b2478;
+    font-family: sans-serif;
+    font-weight: 2rem;
+    margin-bottom: 1.5rem;
+    
+}
+.fit{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-bottom: 00.5rem;
+    display: block;
+    
+}
+.about-us button{
+    width: 100%;
+    padding: 2px;
+    background: #189bec;
+    border: 1px solid #189bec;
+    color: #fff;
+    border-radius: 1px;
+}
+.to-start{
+    background-color: rgba(158, 158, 165, 0.15);
+    padding: 20px;
+    height: 100vh
+
+}
+.to-start h1 {
+    text-decoration-style: solid;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    margin-top: 2opx;
+}
+.to-start p{
+    text-decoration-style: solid;
+    text-align: center;
+    font-weight: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+    
+.card-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+}
+.box{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 0px;
+    background-color:#fff;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.top-section img{
+    height: 200px;
+}
+.bottom-section{
+    padding-left: 0;
+    margin-left: 0;
+}
+.bottom-section h3{
+    color: darkblue;
+
+}
+.bottom-section .n2{
+    color: #189bec;
+}
+.bottom-section span{
+    margin: 20px;
+}
+.price{
+    text-align: left;
+    margin-top: 20px;
+}
+
+.begin-now{
+    display: flex;
+    justify-content: center;
+    background-image: url("image2/img4.jpg");
+    height: 60vh;
+    background-size: cover;
+}
+.begin-now h1{
+    margin-top: 50px;
+    font-size: 2.9rem;
+    color: white;
+    margin-right: 10rem !important;
+}
+.begin-now button{
+    padding: 10px;
+    border-radius: 10px;
+}
